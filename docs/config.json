@@ -53,17 +53,17 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "transcripts.sorted.gff",
-      "name": "transcripts.sorted.gff",
+      "trackId": "Genes",
+      "name": "Genes",
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz",
+          "uri": "irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz.tbi",
+            "uri": "irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
