@@ -59,12 +59,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz",
+          "uri": "docs/irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz.tbi",
+            "uri": "docs/irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
