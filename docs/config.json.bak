@@ -8,15 +8,15 @@
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
-            "uri": "irgsp1/irgsp1_new_renamed.fasta.gz",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/irgsp1_new_renamed.fasta.gz",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "irgsp1/irgsp1_new_renamed.fasta.gz.fai",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/irgsp1_new_renamed.fasta.gz.fai",
             "locationType": "UriLocation"
           },
           "gziLocation": {
-            "uri": "irgsp1/irgsp1_new_renamed.fasta.gz.gzi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/irgsp1_new_renamed.fasta.gz.gzi",
             "locationType": "UriLocation"
           }
         }
@@ -39,6 +39,8 @@
           "trackSelectorType": "hierarchical",
           "trackSelectorCollapsed": false,
           "tracks": [
+            
+            "irgsp1-ReferenceSequenceTrack",
             "egg_merged_coverage",
             "fertilized_ovary_merged_coverage",
             "seedling_merged_coverage",
@@ -58,12 +60,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -84,7 +86,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_cat.chr.sorted.bw"
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_cat.chr.sorted.bw"
         }
       },
       "category": [
@@ -102,12 +104,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_merged_sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_merged_sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/egg/egg_merged_sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_merged_sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -127,12 +129,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_rep1.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep1.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/egg/egg_rep1.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep1.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -152,12 +154,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_rep2.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep2.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/egg/egg_rep2.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep2.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -177,12 +179,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_rep3.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep3.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/egg/egg_rep3.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep3.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -202,12 +204,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_rep4.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep4.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/egg/egg_rep4.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep4.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -227,12 +229,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_rep5.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep5.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/egg/egg_rep5.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep5.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -252,12 +254,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/egg/egg_rep6.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep6.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/egg/egg_rep6.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/egg/egg_rep6.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -278,7 +280,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_cat.chr.sorted.bw"
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_cat.chr.sorted.bw"
         }
       },
       "category": [
@@ -296,12 +298,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_merge_sort.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_merge_sort.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_merge_sort.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_merge_sort.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -321,12 +323,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep1.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep1.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep1.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep1.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -346,12 +348,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep2.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep2.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep2.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep2.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -371,12 +373,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep3.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep3.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep3.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep3.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -397,7 +399,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_cat.chr.sorted.bw"
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_cat.chr.sorted.bw"
         }
       },
       "category": [
@@ -415,12 +417,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_merged_sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_merged_sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/seedling/seedling_merged_sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_merged_sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -440,12 +442,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_rep1.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep1.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/seedling/seedling_rep1.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep1.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -465,12 +467,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_rep2.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep2.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/seedling/seedling_rep2.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep2.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -490,12 +492,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_rep3.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep3.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/seedling/seedling_rep3.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep3.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -515,12 +517,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_rep4.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep4.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/seedling/seedling_rep4.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep4.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -540,12 +542,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_rep5.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep5.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/seedling/seedling_rep5.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep5.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -565,12 +567,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/seedling/seedling_rep6.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep6.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/seedling/seedling_rep6.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/seedling/seedling_rep6.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -591,7 +593,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_cat.chr.sorted.bw"
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_cat.chr.sorted.bw"
         }
       },
       "category": [
@@ -609,12 +611,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_merged_sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_merged_sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_merged_sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_merged_sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -634,12 +636,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep1.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep1.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep1.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep1.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -659,12 +661,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep2.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep2.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep2.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep2.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -684,12 +686,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep3.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep3.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep3.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep3.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -709,12 +711,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep4.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep4.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep4.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep4.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -734,12 +736,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep5.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep5.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep5.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep5.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -759,12 +761,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep6.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep6.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep6.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep6.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -784,12 +786,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep7.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep7.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep7.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep7.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -809,12 +811,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/sperm/sperm_rep8.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep8.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/sperm/sperm_rep8.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/sperm/sperm_rep8.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -835,7 +837,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_cat.chr.sorted.bw"
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_cat.chr.sorted.bw"
         }
       },
       "category": [
@@ -853,12 +855,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_merged_sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_merged_sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_merged_sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_merged_sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -878,12 +880,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep1.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep1.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep1.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep1.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -903,12 +905,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep2.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep2.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep2.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep2.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -928,12 +930,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep3.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep3.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep3.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_rep3.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -954,7 +956,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_cat.chr.sorted.bw"
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_cat.chr.sorted.bw"
         }
       },
       "category": [
@@ -972,12 +974,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_merged_sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_merged_sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/zygote/zygote_merged_sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_merged_sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -997,12 +999,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -1022,12 +1024,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_rep2.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep2.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/zygote/zygote_rep2.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep2.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -1047,12 +1049,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_rep3.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep3.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/zygote/zygote_rep3.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep3.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -1072,12 +1074,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_rep4.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep4.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/zygote/zygote_rep4.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep4.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -1097,12 +1099,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_rep5.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep5.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/zygote/zygote_rep5.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep5.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -1122,12 +1124,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "irgsp1/tracks_sorted/zygote/zygote_rep6.24.sorted.bed.gz",
+          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep6.24.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "irgsp1/tracks_sorted/zygote/zygote_rep6.24.sorted.bed.gz.tbi",
+            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/tracks_sorted/zygote/zygote_rep6.24.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
