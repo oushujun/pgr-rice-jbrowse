@@ -21,10 +21,18 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout with LFS
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          lfs: true
+
+      - name: Pull LFS files
+        run: |
+          git lfs install
+          git lfs pull
+          echo "--- Verifying LFS files are resolved ---"
+          file docs/irgsp1/irgsp1_new_renamed.fasta.gz
+          head -c 4 docs/irgsp1/irgsp1_new_renamed.fasta.gz | xxd
+          echo "--- docs/ size ---"
+          du -sh docs/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
